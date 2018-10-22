@@ -673,6 +673,11 @@ span.tag-pastebin {
     color: white;
 }
 
+span.tag-reverse-engineering {
+    background-color: #596060;
+    color: white;
+}
+
 span.tag-rfc {
     background-color: #ffb100;
     color: white;
@@ -760,6 +765,10 @@ th.h1-scope-in-scope {
     margin-left: auto;
 }
 
+.margin-left-24 {
+    margin-left: 24px;
+}
+
 .two-no-mar {
     margin-top: 2px;
     margin-bottom: 0px;
@@ -767,6 +776,10 @@ th.h1-scope-in-scope {
 
 .radius-8 {
     border-radius: 8px;
+}
+
+.border-1px-solid {
+    border: 1px solid;
 }
 
 .indent {
@@ -805,6 +818,14 @@ th.h1-scope-in-scope {
     flex-grow: 1;
 }
 
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-direction-row {
+    .flex-direction: row;
+}
+
 .float-left {
     float: left;
 }
@@ -835,6 +856,10 @@ th.h1-scope-in-scope {
 
 .intro-mar-top {
     margin-top: 11px;
+}
+
+.subtitle-mar-top {
+    margin-top: 16px;
 }
 
 .bg-lightgrey {
