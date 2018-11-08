@@ -339,6 +339,7 @@ div.iconimg img {
 }
 
 div.iconlist {
+    max-width: calc(100% - 110px);
     display: inline-block;
     vertical-align: middle;
     padding-bottom: 3.5px;
@@ -700,6 +701,11 @@ span.tag-tor {
 
 span.tag-ubuntu {
     background-color: #e95420;
+    color: white;
+}
+
+span.tag-virtualisation {
+    background-color: #2a7fee;
     color: white;
 }
 
