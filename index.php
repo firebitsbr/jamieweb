@@ -7,9 +7,7 @@
 <head>
     <title>JamieWeb</title>
     <meta name="description" content="Website of Jamie Scaife - United Kingdom">
-    <meta name="keywords" content="Jamie, Scaife, jamie scaife, jamiescaife, jamieonubuntu, jamie90437, jamie90437x, jamieweb, jamieweb.net">
-    <meta name="author" content="Jamie Scaife">
-    <link href="/jamie.css" rel="stylesheet">
+    <?php include "head.php" ?>
     <link href="https://www.jamieweb.net/" rel="canonical">
 </head>
 
@@ -27,7 +25,7 @@
         <p class="two-mar-top">This site is available through Tor at:</p>
         <ul>
             <li><p class="onionlink">Onion v2: <a class="two-mar-left" href="http://jamiewebgbelqfno.onion" target="_blank" rel="noopener">jamiewebgbelqfno.onion</a></p></li>
-            <li><p class="onionlink">Onion v3: <a class="two-mar-left" href="http://jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion" target="_blank" rel="noopener">jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion</a></p></li>
+            <!--<li><p class="onionlink">Onion v3: <a class="two-mar-left" href="http://jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion" target="_blank" rel="noopener">jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion</a></p></li>-->
         </ul>
         <hr>
         <div class="recent-posts"><?php bloglist("home"); ?></div>
