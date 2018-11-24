@@ -7,9 +7,7 @@
 <head>
     <title>Launching a Public HackerOne Security Vulnerability Disclosure Program</title>
     <meta name="description" content="A write-up of launching the public HackerOne security vulnerability disclosure program for JamieWeb. hackerone.com/jamieweb">
-    <meta name="keywords" content="Jamie, Scaife, jamie scaife, jamiescaife, jamieonubuntu, jamie90437, jamie90437x, jamieweb, jamieweb.net">
-    <meta name="author" content="Jamie Scaife">
-    <link href="/jamie.css" rel="stylesheet">
+    <?php include "head.php" ?>
     <link href="https://www.jamieweb.net/blog/launching-a-public-hackerone-program/" rel="canonical">
 </head>
 
@@ -34,13 +32,13 @@
     <img class="radius-8" width="1000px" src="/blog/launching-a-public-hackerone-program/hackerone-jamieweb.png">
     <p class="two-no-mar centertext"><i>The front page of my HackerOne program at <a href="https://hackerone.com/jamieweb" target="_blank" rel="noopener">https://hackerone.com/jamieweb</a>.</i></p>
     <h2 id="what-is-hackerone">What is HackerOne?</h2>
-    <div class="display-flex">
-        <div class="width-545 float-left">
-            <p class="no-mar-top"><a href="https://www.hackerone.com" target="_blank" rel="noopener">HackerOne</a> is a security vulnerability coordination and bug bounty platform, with the aim of connecting ethical hackers with businesses for hacker-powered security testing.</p>
+    <div class="display-flex flex-direction-column-reverse-on-small">
+        <div class="display-flex flex-direction-column">
+            <p class="no-mar-top no-mar-bottom"><a href="https://www.hackerone.com" target="_blank" rel="noopener">HackerOne</a> is a security vulnerability coordination and bug bounty platform, with the aim of connecting ethical hackers with businesses for hacker-powered security testing.</p>
             <p class="no-mar-bottom">The company was founded in 2012, and has since grown to have offices in San Francisco, New York City, London and Groningen (Netherlands).</p>
         </div>
-        <div class="width-450 float-right display-flex flex-align-center flex-justify-center margin-left-auto">
-           <img src="/blog/launching-a-public-hackerone-program/hackerone-full.png">
+        <div class="display-flex flex-align-center flex-justify-center padding-20-rl padding-bottom-30-on-small">
+           <img class="max-width-100-percent-on-small" src="/blog/launching-a-public-hackerone-program/hackerone-full.png">
         </div>
     </div>
     <p class="clearboth">I am using the HackerOne 'Response' service to host my vulnerability disclosure program. This service allows you to set up a security page on HackerOne for your organisation/project, which contains your security policy, disclosure guidelines and a list of assets that are in-scope of the program. The page essentially tells hackers what they do/don't have permission to test.</p>
@@ -55,7 +53,7 @@
     <p>You can add assets of different types, including domain names, IP addresses, mobile apps and even direct links to source code. The maximum impact to confidentiality, integrity and availability can be specified, as well as additional notes to guide hackers.</p>
     <img class="radius-8" width="1000px" src="/blog/launching-a-public-hackerone-program/add-asset.png">
     <p>In my case, I added my main (sub)domain names, IP addresses, Tor Hidden Services and some of my source code hosted on GitHub:</p>
-    <table class="width-1000 padding-6 border-1-4c4c4c border-collapse">
+    <table class="width-100-percent padding-6 border-1-4c4c4c border-collapse">
         <tr class="bg-lightgreen">
             <th class="h1-scope-type">Type</th>
             <th class="h1-scope-identifier">Identifier</th>
@@ -64,55 +62,55 @@
         </tr>
         <tr>
             <td>Domain</td>
-            <td>www.jamieweb.net</td>
+            <td class="x-scroll max-width-15-vw">www.jamieweb.net</td>
             <td>Critical</td>
             <td>Yes</td>
         </tr>
         <tr>
             <td>Domain</td>
-            <td>jamieweb.net</td>
+            <td class="x-scroll max-width-15-vw">jamieweb.net</td>
             <td>Critical</td>
             <td>Yes</td>
         </tr>
         <tr>
             <td>Domain</td>
-            <td>ipv6.jamieweb.net</td>
+            <td class="x-scroll max-width-15-vw">ipv6.jamieweb.net</td>
             <td>Critical</td>
             <td>Yes</td>
         </tr>
         <tr>
             <td>Domain</td>
-            <td>ipv4.jamieweb.net</td>
+            <td class="x-scroll max-width-15-vw">ipv4.jamieweb.net</td>
             <td>Critical</td>
             <td>Yes</td>
         </tr>
         <tr>
             <td>Domain</td>
-            <td>jamiewebgbelqfno.onion</td>
+            <td class="x-scroll max-width-15-vw">jamiewebgbelqfno.onion</td>
             <td>Critical</td>
             <td>Yes</td>
         </tr>
         <tr>
             <td>Domain</td>
-            <td>jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion</td>
+            <td class="x-scroll max-width-15-vw">jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion</td>
             <td>Critical</td>
             <td>Yes</td>
         </tr>
         <tr>
             <td>Source Code</td>
-            <td>https://github.com/jamieweb/results-whitelist</td>
+            <td class="x-scroll max-width-15-vw">https://github.com/jamieweb/results-whitelist</td>
             <td>Critical</td>
             <td>Yes</td>
         </tr>
         <tr>
             <td>CIDR</td>
-            <td>139.162.222.67</td>
+            <td class="x-scroll max-width-15-vw">139.162.222.67</td>
             <td>Critical</td>
             <td>Yes</td>
         </tr>
         <tr>
             <td>CIDR</td>
-            <td>2a01:7e00:e001:c500::1</td>
+            <td class="x-scroll max-width-15-vw">2a01:7e00:e001:c500::1</td>
             <td>Critical</td>
             <td>Yes</td>
         </tr>

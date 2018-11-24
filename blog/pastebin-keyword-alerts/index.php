@@ -7,9 +7,7 @@
 <head>
     <title>Pastebin Keyword Alerts</title>
     <meta name="description" content="Using the Pastebin Alerts Service to find your public information in data dumps.">
-    <meta name="keywords" content="Jamie, Scaife, jamie scaife, jamiescaife, jamieonubuntu, jamie90437, jamie90437x, jamieweb, jamieweb.net">
-    <meta name="author" content="Jamie Scaife">
-    <link href="/jamie.css" rel="stylesheet">
+    <?php include "head.php" ?>
     <link href="https://www.jamieweb.net/blog/pastebin-keyword-alerts/" rel="canonical">
 </head>
 
@@ -22,7 +20,7 @@
     <hr>
     <p><b>Saturday 2nd September 2017</b></p>
     <p>The <a href="https://pastebin.com/alerts" target="_blank" rel="noopener">Pastebin Alerts Service</a> is a lesser-known feature of Pastebin that I find extremely useful. It's a notification service that allows you to set alert keywords, and when those keywords appear in a new public paste, you will be notified via email.</p>
-    <img src="/blog/pastebin-keyword-alerts/alerts-description.png">
+    <img width="1000px" src="/blog/pastebin-keyword-alerts/alerts-description.png">
     <p>A standard Pastebin account can set up to 3 keywords, each of which has a maximum of 10 notifications or 90 days before they must be renewed, whichever is met first. To clarify, if you receive 10 paste notifications for a particular keyword, the notifications will stop and you'll have to manually set up the keywords again. This is to prevent abuse. Note that Pastebin PRO accounts do not have these restrictions, and can have up to 15 keywords permanently enabled.</p>
     <p>Whenever a public paste is made that contains one of your keywords, you will receive a notification via email, for example:</p>
     <pre>Hi JamieOnUbuntu

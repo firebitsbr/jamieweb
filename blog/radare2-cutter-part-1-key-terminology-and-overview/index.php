@@ -7,9 +7,7 @@
 <head>
     <title>Part 1: Key Terminology and Overview - Introduction to Reverse Engineering with radare2 Cutter</title>
     <meta name="description" content="An overview of some key reverse engineering terminology and details on the various interfaces and tools available in radare2 Cutter.">
-    <meta name="keywords" content="Jamie, Scaife, jamie scaife, jamiescaife, jamieonubuntu, jamie90437, jamie90437x, jamieweb, jamieweb.net">
-    <meta name="author" content="Jamie Scaife">
-    <link href="/jamie.css" rel="stylesheet">
+    <?php include "head.php" ?>
     <link href="https://www.jamieweb.net/blog/radare2-cutter-part-1-key-terminology-and-overview/" rel="canonical">
 </head>
 
@@ -33,11 +31,11 @@
             </ul>
         </div>
         <div class="display-flex flex-align-center flex-justify-center flex-direction-column">
-            <img src="/blog/radare2-cutter-part-1-key-terminology-and-overview/cutter-logo.png" width="250px" title="Cutter Logo" alt="Cutter Logo">
+            <img class="max-width-35-vw" src="/blog/radare2-cutter-part-1-key-terminology-and-overview/cutter-logo.png" width="250px" title="Cutter Logo" alt="Cutter Logo">
             <p class="no-mar-top centertext"><i>The Cutter logo.</i></p>
         </div>
     </div>
-    <p class="no-mar-top">Cutter can be found on GitHub here: <b><a href="https://github.com/radareorg/cutter" target="_blank" rel="noopener">https://github.com/radareorg/cutter</a></b></p>
+    <p class="no-mar-top">Cutter can be found on GitHub here: <b><a href="https://github.com/radareorg/cutter" target="_blank" rel="noopener">https://github.com/<wbr>radareorg/cutter</a></b></p>
     <img class="radius-8" src="/blog/radare2-cutter-part-1-key-terminology-and-overview/cutter-interface-overview.png" width="1000px" title="The Cutter Interface" alt="Screenshot of the Cutter Interface">
     <p class="two-no-mar centertext"><i>The main Cutter interface.</i></p>
     <p><b>Skip to Section:</b></p>
@@ -158,7 +156,7 @@ Part 1: Key Terminology and Overview</b>
     <h3 id="functions-overview">Functions</h3>
     <div class="display-flex">
         <div>
-            <img class="radius-8" src="/blog/radare2-cutter-part-1-key-terminology-and-overview/cutter-functions.png" width="300px" title="The Cutter Functions List" alt="A screenshot of the Cutter functions list.">
+            <img class="radius-8 max-width-45-vw" src="/blog/radare2-cutter-part-1-key-terminology-and-overview/cutter-functions.png" width="300px" title="The Cutter Functions List" alt="A screenshot of the Cutter functions list.">
         </div>
         <div class="display-flex flex-direction-column">
             <p class="no-mar-top margin-left-24">On the left hand side of the default interface layout, there is the functions list. This shows a list of functions that Cutter has been able to detect in the program.</p>

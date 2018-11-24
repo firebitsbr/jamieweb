@@ -7,9 +7,7 @@
 <head>
     <title>Part 2: Analysing a Basic Program - Introduction to Reverse Engineering with radare2 Cutter</title>
     <meta name="description" content="Reverse engineering a basic program using static and dynamic analysis in radare2 Cutter.">
-    <meta name="keywords" content="Jamie, Scaife, jamie scaife, jamiescaife, jamieonubuntu, jamie90437, jamie90437x, jamieweb, jamieweb.net">
-    <meta name="author" content="Jamie Scaife">
-    <link href="/jamie.css" rel="stylesheet">
+    <?php include "head.php" ?>
     <link href="https://www.jamieweb.net/blog/radare2-cutter-part-2-analysing-a-basic-program/" rel="canonical">
 </head>
 
@@ -36,7 +34,7 @@
             <p class="no-mar-top centertext"><i>The Cutter logo.</i></p>
         </div>
     </div>
-    <p class="no-mar-top">Cutter can be found on GitHub here: <b><a href="https://github.com/radareorg/cutter" target="_blank" rel="noopener">https://github.com/radareorg/cutter</a></b></p>
+    <p class="no-mar-top">Cutter can be found on GitHub here: <b><a href="https://github.com/radareorg/cutter" target="_blank" rel="noopener">https://github.com/<wbr>radareorg/cutter</a></b></p>
     <p><b>Skip to Section:</b></p>
     <pre><b>Introduction to Reverse Engineering with radare2 Cutter
 Part 2: Analysing a Basic Program</b>

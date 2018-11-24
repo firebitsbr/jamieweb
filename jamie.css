@@ -3,19 +3,13 @@
     src: url("/fonts/opensans/OpenSans-Regular.ttf");
 }
 
-@media (max-width: 1049px) {
+@media (max-width: 1049.9px) {
     nav {
         width: 100%;
-    }
-    div.navbar {
-        width: calc(100% - 50px);
     }
     div.body {
         width: 100%;
         box-sizing: border-box;
-    }
-    div.content {
-        width: calc(100% - 300px);
     }
     footer {
         width: 100%
@@ -23,12 +17,34 @@
     img[width="1000px"] {
         width: 100%;
     }
+    div.computing-stats-half-width {
+        width: unset;
+    }
     div.ewcbt-info {
-        width: calc(100% - 350px);
+        width: 100%;
+        display: inline-block;
+    }
+    div.flex-direction-column-on-small {
+        flex-direction: column;
+    }
+    div.flex-direction-column-reverse-on-small {
+        flex-direction: column-reverse;
+    }
+    div.padding-bottom-30-on-small {
+        padding-bottom: 30px;
+    }
+    .max-width-100-percent-on-small {
+        max-width: 100%;
     }
 }
 
-@media (max-width: 1049px) and (min-width: 550px) {
+@media (max-width: 1049.9px) and (min-width: 675px) {
+    div.navbar {
+        width: calc(100% - 50px);
+    }
+    div.content {
+        width: calc(100% - 300px);
+    }
     div.footer-column {
         width: 30%;
     }
@@ -36,14 +52,65 @@
         margin: 0 auto;
         padding: 0px 25px;
     }
+    h1 {
+        margin-top: 16px;
+    }
+    .gravity-label {
+        margin: 25px 0 5px;
+    }
 }
 
-@media (max-width: 549px) {
+@media (max-width: 674.9px) {
+    div.navbar {
+        width: calc(100% - 30px);
+    }
+    div.navbar li a {
+        padding: 17px 11px 16px;
+    }
+    div.body {
+        padding: 0 15px 15px;
+    }
+    div.content {
+        width: 100%;
+    }
+    div.sidebar {
+        display: none;
+    }
     div.footer {
         flex-direction: column;
     }
     div.footer-column {
         width: 100%;
+    }
+    h1 {
+        margin-top: 8px;
+    }
+    img.contact-jamie {
+        width: 174.375px;
+    }
+    img.contact-abuse {
+        width: 176.119px;
+    }
+    img.contact-security {
+        width: 192.107px;
+    }
+}
+
+@media (min-width: 675px) {
+    div.navbar li a {
+        padding: 17px 16px 16px;
+    }
+    div.body {
+        padding: 0 25px 25px;
+    }
+    img.contact-jamie {
+        width: 225px;
+    }
+    img.contact-abuse {
+        width: 227.25px;
+    }
+    img.contact-security {
+        width: 247.88px;
     }
 }
 
@@ -67,14 +134,14 @@
         margin: 0 auto;
         padding: 0px 25px;
     }
+    div.computing-stats-half-width {
+        width: calc(50% - 15px);
+    }
     div.ewcbt-info {
         width: 650px;
     }
-}
-
-@media (max-width: 1400px) {
-    p.onionlink {
-        line-height: 30px;
+    .gravity-label {
+        margin: 29px 0 5px;
     }
 }
 
@@ -129,8 +196,6 @@ div.navbar li {
 
 div.navbar li a {
     display: block;
-    padding: 16px;
-    padding-top: 17px;
 }
 
 div.navbar li a:hover {
@@ -174,8 +239,6 @@ div.navbar li.dropdown:hover div.dropdown-content {
 div.body {
     flex-grow: 1;
     margin: 0 auto;
-    padding: 25px;
-    padding-top: 0px;
 }
 
 div.content {
@@ -270,6 +333,13 @@ div.menuitem pre {
     margin-bottom: 28px;
 }
 
+div.onionlink {
+    display: inline-block;
+    padding: 1px 7.5px 3.5px;
+    background-color: #e0e0e0;
+    border: 1px solid #000000;
+}
+
 div.blog-group {
     display: flex;
 }
@@ -352,6 +422,11 @@ div.iconlist p {
     border-radius: 5px;
 }
 
+div.computing-stats div {
+    display: inline-block;
+    padding: 15px 15px 0 0;
+}
+
 div.ewcbt-redgreen {
     height: 334px;
     width: 350px;
@@ -385,26 +460,6 @@ div.image-right-a {
     width: 550px;
     float: right;
     margin-top: 16px;
-}
-
-div.ext-l-1 {
-    width: 500px;
-    float: left;
-}
-
-div.ext-r-1 {
-    width: 450px;
-    float: right;
-}
-
-div.ext-l-2 {
-    width: 775px;
-    float: left;
-}
-
-div.ext-r-2 {
-    width: 204px;
-    float: right;
 }
 
 div.email-form {
@@ -501,13 +556,6 @@ span.ipv6-test:after, span.ipv4-test:after {
     background-color: crimson;
     padding: 4px 5px 0px;
     content: "No";
-}
-
-p.onionlink a {
-    font-family: monospace;
-    padding: 3.5px;
-    background-color: #e0e0e0;
-    border: 1px solid #000000;
 }
 
 p.recents-date {
@@ -780,6 +828,10 @@ th.h1-scope-in-scope {
     margin-bottom: 0px;
 }
 
+.no-mar {
+    margin: 0;
+}
+
 .radius-8 {
     border-radius: 8px;
 }
@@ -848,6 +900,10 @@ th.h1-scope-in-scope {
     width: 1000px;
 }
 
+.width-100-percent {
+    width: 100%;
+}
+
 .width-450 {
     width: 450px;
 }
@@ -856,12 +912,36 @@ th.h1-scope-in-scope {
     width: 545px;
 }
 
+.max-width-100-percent {
+    max-width: 100%;
+}
+
+.max-width-15-vw {
+    max-width: 15vw;
+}
+
+.max-width-25-vw {
+    max-width: 25vw;
+}
+
+.max-width-35-vw {
+    max-width: 35vw;
+}
+
+.max-width-45-vw {
+    max-width: 45vw;
+}
+
 .padding-right-10 {
     padding-right: 10px;
 }
 
+.padding-20-rl {
+    padding: 0 20px;
+}
+
 .padding-8-rl {
-    padding: 0px 8px 0px 8px;
+    padding: 0 8px;
 }
 
 .intro-mar-top {
@@ -888,6 +968,22 @@ th.h1-scope-in-scope {
     color: crimson;
 }
 
+.y-scroll {
+    overflow-y: scroll;
+}
+
+.x-scroll {
+    overflow-x: scroll;
+}
+
+.word-break-all {
+    word-break: break-all;
+}
+
+.font-family-monospace {
+    font-family: monospace;
+}
+
 .info {
     margin-top: 0px;
     margin-bottom: 2px;
@@ -911,20 +1007,18 @@ th.h1-scope-in-scope {
     left: 15px;
 }
 
-.gravityradio {
+.gravity-radio {
     display: none;
 }
 
-.gravitylabel {
+.gravity-label {
     display: inline-block;
-    margin-top: 29px;
-    margin-bottom: 5px;
     width: 275px;
     height: 275px;
     background: url(/images/jamieweb.png);
 }
 
-.gravityradio:checked + .gravitylabel {
+.gravity-radio:checked + .gravity-label {
     background: url(/images/jamieweb-gravity.gif);
 }
 
@@ -936,7 +1030,7 @@ th.h1-scope-in-scope {
     background-image: url(/blog/ipad-mini-ios6/ios-6.png);
     position: relative;
     overflow: hidden;
-    width: 1000px;
+    width: 100%;
     height: 750px;
 }
 
@@ -946,7 +1040,7 @@ th.h1-scope-in-scope {
     resize: horizontal;
     height: 750px;
     min-width: 0;
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 .ios9-slider:before {
@@ -966,29 +1060,30 @@ th.h1-scope-in-scope {
 .ios-slider {
     position: relative;
     resize: horizontal;
-    width: 505px;
+    width: 34.2vw;
     height: 15px;
     top: 50%;
     left: 0px;
     transform: scaleY(65);
     transform-origin: center center;
     min-width: 14px;
-    max-width: 1000px;
+    max-width: 100%;
     opacity: 0;
 }
 
-.subgraphcheck {
+.subgraph-check {
     display: none;
 }
 
-.subgraphlabel {
+.subgraph-label {
     display: inline-block;
+    max-width: 100%;
     width: 720px;
     height: 400px;
     background: url(/blog/subgraph-os-overview/subgraph-vm-not-flashing.png);
 }
 
-.subgraphcheck:checked + .subgraphlabel {
+.subgraph-check:checked + .subgraph-label {
     background: url(/blog/subgraph-os-overview/subgraph-vm-flashing.gif);
 }
 

@@ -7,9 +7,7 @@
 <head>
     <title>JamieWeb</title>
     <meta name="description" content="Website of Jamie Scaife - United Kingdom">
-    <meta name="keywords" content="Jamie, Scaife, jamie scaife, jamiescaife, jamieonubuntu, jamie90437, jamie90437x, jamieweb, jamieweb.net">
-    <meta name="author" content="Jamie Scaife">
-    <link href="/jamie.css" rel="stylesheet">
+    <?php include "head.php" ?>
     <link href="https://www.jamieweb.net/" rel="canonical">
 </head>
 
@@ -24,10 +22,20 @@
         <h3 class="no-mar-bottom intro-mar-top">No Ads, No Tracking, No JavaScript</h3>
         <p class="two-mar-top">This website does not have any adverts, tracking or other internet annoyances.<br/>It's also 100% JavaScript free.</p>
         <h3 class="no-mar-bottom">Tor Hidden Services</h3>
-        <p class="two-mar-top">This site is available through Tor at:</p>
-        <ul>
-            <li><p class="onionlink">Onion v2: <a class="two-mar-left" href="http://jamiewebgbelqfno.onion" target="_blank" rel="noopener">jamiewebgbelqfno.onion</a></p></li>
-            <li><p class="onionlink">Onion v3: <a class="two-mar-left" href="http://jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion" target="_blank" rel="noopener">jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion</a></p></li>
+        <p class="two-no-mar">This site is available through Tor at:</p>
+        <ul class="no-mar-top">
+            <li>
+                <p class="two-mar-bottom display-inline-block">Onion v2: </p>
+                <div class="onionlink two-mar-top">
+                    <p class="no-mar word-break-all"><a class="font-family-monospace" href="http://jamiewebgbelqfno.onion" target="_blank" rel="noopener">jamiewebgbelqfno.onion</a></p>
+                </div>
+            </li>
+            <li>
+                <p class="two-mar-bottom display-inline-block">Onion v3: </p>
+                <div class="onionlink two-mar-top">
+                    <p class="no-mar word-break-all"><a class="font-family-monospace"href="http://jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion" target="_blank" rel="noopener">jamie3vkiwibfiwucd6vxijskbhpjdyajmzeor4mc4i7yopvpo4p7cyd.onion</a></p>
+                </div>
+            </li>
         </ul>
         <hr>
         <div class="recent-posts"><?php bloglist("home"); ?></div>
@@ -40,8 +48,8 @@
     </div>
 
     <div class="sidebar">
-        <input type="radio" class="gravityradio" id="identicon">
-        <label class="gravitylabel" for="identicon"></label>
+        <input type="radio" class="gravity-radio" id="identicon">
+        <label class="gravity-label" for="identicon"></label>
         <!--Thanks to jdenticon.com for the identicon image generation!-->
         <!--My identicon seed is the sha256 hash of the plain text word "JamieOnUbuntu".-->
         <hr>
