@@ -7,7 +7,7 @@
                 <h5><a href="/blog/"><span class="exempt">&#x1f58b;&#xfe0e;</span> <span>Blog</span></a></h5>
                 <div class="dropdown-content">
                     <h4>
-                        <?php include_once "bloglist.php"; bloglist("navbar"); ?>
+<?php include_once "bloglist.php"; bloglist("navbar"); ?>
                     </h4>
                 </div>
             </li>
@@ -38,7 +38,6 @@
                         <a href="/info/chrome-extension-ids/">Chrome Extension IDs</a>
                         <a href="/info/firefox-extension-ids/">Firefox Extension IDs</a>
                         <a href="/info/git-hosting-service-ssh-server-key-fingerprints/">Git Services SSH Fingerprints</a>
-                        <a href="/info/hl-client-security/">Half-Life Client Security</a>
                         <a href="/info/chromium-team-updated-packages-for-ubuntu/">Updated Chromium Browser Packages for Ubuntu</a>
                         <a href="/info/x86_64-general-purpose-registers-reference/">x86_64 GPR Reference</a>
                     </h4>

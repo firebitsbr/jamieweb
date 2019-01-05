@@ -27,8 +27,8 @@
             <p>This is part 1 of a 3 part series on reverse engineering with Cutter:</p>
             <ul class="spaced-list">
                 <li><b>Part 1:</b> Key Terminology and Overview (You Are Here)</li>
-                <li><a href="/blog/radare2-cutter-part-2-analysing-a-basic-program/" target="_blank"><b>Part 2:</b> Analysing a Basic Program</a></li>
-                <li><b>Part 3:</b> Solving a Crackme (Coming Soon)</li>
+                <li><b>Part 2:</b> <a href="/blog/radare2-cutter-part-2-analysing-a-basic-program/" target="_blank">Analysing a Basic Program</a></li>
+                <li><b>Part 3:</b> <a href="/blog/radare2-cutter-part-3-solving-a-crackme-challenge/" target="_blank">Solving a Crackme Challenge</a></li>
             </ul>
         </div>
         <div class="display-flex flex-align-center flex-justify-center flex-direction-column">
@@ -280,7 +280,7 @@ Access Denied
 Enter Password (or q to quit): q</pre>
     <p>I have already solved it and will be posting a walkthrough in part 3 of this series on my blog, however if you wish to have a go, it is available on GitHub <a href="https://github.com/jamieweb/crackme-challenge" target="_blank" rel="noopener">here</a>.</p>
     <p>It is a beginner difficulty crackme, and most of the knowledge needed to solve it is present in the blog post that you are reading now.</p>
-    <p><b>Please note that the <code>source.cpp</code> file is not obfuscated, so looking at it will potentially reveal the solution.</b> For the best experience, compile the code without looking at the source file. Obviously running untrusted code from the internet goes against every security best-practise out there, so either use a dedicated and segregated malware analysis machine, or ask a trusted friend to check the code first.</p>
+    <p><b>Please note that the <code>source.cpp</code> file is not obfuscated, so looking at it will potentially reveal the solution.</b> For the best experience, compile the code without looking at the source file. Obviously running untrusted code from the internet goes against every security best-practice out there, so either use a dedicated and segregated malware analysis machine, or ask a trusted friend to check the code first.</p>
 
     <h2 id="part-2">Part 2</h2>
     <p>Part 2 includes analysing a basic compiled C++ program using static analysis, and further technical details on some common instructions.</p>
